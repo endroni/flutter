@@ -17,17 +17,17 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               Icon(
                 Icons.monitor,
-                color: Colors.green,
+                color: Color(0xFF4A148C),
                 size: 30.0,
               ),
               Icon(
                 Icons.keyboard,
-                color: Color(0xFF4A148C),
+                color: Color.fromARGB(255, 16, 143, 33),
                 size: 36.0,
               ),
               Icon(
                 Icons.cloud,
-                color: Color.fromARGB(255, 184, 183, 183),
+                color: Color.fromRGBO(37, 37, 37, 0.286),
                 size: 36.0,
               ),
             ],
