@@ -9,32 +9,26 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color carColor = Colors.blue[400]!;
-    Color trainColor = Colors.red[400]!;
-    Color planeColor = Colors.green[400]!;
-
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Column(
+          child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Icon(
-                Icons.directions_car,
-                size: 36.0,
-                color: carColor,
+                Icons.monitor,
+                color: Colors.green,
+                size: 30.0,
               ),
-              const SizedBox(height: 20.0),
               Icon(
-                Icons.train,
+                Icons.keyboard,
+                color: Color(0xFF4A148C),
                 size: 36.0,
-                color: trainColor,
               ),
-              const SizedBox(height: 20.0),
               Icon(
-                Icons.airplanemode_active,
+                Icons.cloud,
+                color: Color.fromARGB(255, 184, 183, 183),
                 size: 36.0,
-                color: planeColor,
               ),
             ],
           ),
